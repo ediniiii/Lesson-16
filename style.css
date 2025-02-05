@@ -1,0 +1,47 @@
+article p{
+
+background-color: blue;
+color: white;
+padding: 20px;
+
+}
+
+article > p {
+ background-color: red;
+}
+
+article ~ p{
+    background-color: green;
+    color: white;
+    padding: 20px;
+}
+
+article + p{
+    background-color: yellow;
+}
+
+input:out-of-range{
+    border: 3px solid red;
+}
+
+span:first-of-type{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+form{
+    margin-top: 20px;
+}
+
+input:invalid{
+    border: 3px solid red;
+}
+
+input:valid{
+    border: 3px solid green;
+}
+
+div{
+    opacity: 0.5;
+}
